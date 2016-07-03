@@ -1,0 +1,11 @@
+FROM elasticsearch:5.0.0-alpha3
+
+MAINTAINER d3rwan
+
+ENV ES_JAVA_OPTS="-Xms1g -Xmx1g"
+ENV MAX_OPEN_FILES=65535
+ENV MAX_LOCKED_MEMORY=unlimited
+ENV MAX_MAP_COUNT=262144
+
+COPY config ./config
+

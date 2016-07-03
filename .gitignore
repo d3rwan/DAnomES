@@ -1,0 +1,8 @@
+/.idea/
+/logstash/delinquance/
+/*.iml
+/logstash/infogreffe/data/raw/*.csv
+/logstash/infogreffe/data/*.json
+/*.key
+/*.pptx
+/*.pdf

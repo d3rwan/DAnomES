@@ -1,0 +1,19 @@
+{
+	"template": "infogreffe*",
+	"order": 1,
+	"settings": {
+		"number_of_shards": 3
+	},
+	"mappings": {
+		"_default_": {
+			"properties": {
+				"@timestamp": {
+					"type": "date"
+				},
+				"geolocalisation": {
+					"type": "geo_point"
+				}
+			}
+		}
+	}
+}
